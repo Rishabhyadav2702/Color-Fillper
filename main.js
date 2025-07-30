@@ -4,7 +4,7 @@ const color = document.querySelector('.color');
 function getRandomNumber() {
     return Math.floor(Math.random() * hex.length)
 }
-console.log(getRandomNumber())
+
 
 btn.addEventListener("click", function () {
         let hexcolor = '#'
